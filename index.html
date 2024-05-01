@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="icon" type="favicon" href="assets/freddie.png" />
+    <title>We are the Champions</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img class="champion-img" src="assets/freddie.png" />
+      <h1 class="champion-header">We are the Champions</h1>
+      <div class="input-field">
+        <textarea
+          required
+          id="name-input"
+          placeholder="Write your endorsement here."
+        ></textarea>
+        <div class="to-from-fields">
+          <input class="input" type="text" id="from-field" placeholder="From" />
+          <input class="input" type="text" id="to-field" placeholder="To" />
+        </div>
+        <button class="publish-btn">Publish</button>
+      </div>
+
+      <h2>- Endorsements -</h2>
+      <div class="endorsement-list"></div>
+
+      <script src="index.js" type="module"></script>
+    </div>
+  </body>
+</html>
